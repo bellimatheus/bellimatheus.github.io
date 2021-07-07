@@ -1,0 +1,43 @@
+html, body{
+    margin:0px;
+    padding: 10px;
+}
+
+h4{
+    text-align:right; 
+}
+
+.lss{
+    margin-top: 10%;
+    background-color: rgb(215, 219, 197);
+    word-spacing: 10px;
+}
+
+.lss>ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lss>ul>li{
+    display: inline-block;
+    margin: 0px;
+}
+
+ul{
+    word-spacing: 30px;
+    text-align: center;
+}
+
+#lista{
+    font-weight: bold;
+}
+
+.linha{
+    width: 50%;
+    background-color: rgb(0, 109, 33)
+    
+}
+
+#lis{
+    margin: 0px;
+}

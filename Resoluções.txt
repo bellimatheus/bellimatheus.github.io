@@ -1,0 +1,7 @@
+moto g4, galaxy s5             360
+pixel 2, pixel 2 xl                 411
+iphone 5/se                         320
+iphone 6/7/8, iphone x    375
+iphone 6/7/8 plus             414
+ipad pro                                1024 x 1366
+galaxy fold                           280

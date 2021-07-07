@@ -1,0 +1,38 @@
+body{
+    background-image: url('animado.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+h1{
+    font-size: 55px;
+    font-family:'Claphappy';
+    text-decoration: underline;
+}
+
+.title{
+    background-color: rgb(84, 153, 127);
+    font-size: 25px;
+    font-family:'Claphappy';
+    border:solid 3px;
+    border-radius: 0px 25px 0px 25px;
+    width: 95%;
+    height: 60%;
+    margin: 4%;
+}
+.proven{
+    font-size: 25px;
+    font-family:'Claphappy';
+    border:solid 3px;
+    border-radius: 0px 25px 0px 25px;
+    width: 95%;
+    margin: 4%;
+    background-color: rgb(84, 153, 127);
+}
+.finn{
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    border: 0px solid rgba(255,255,255,.5);
+}

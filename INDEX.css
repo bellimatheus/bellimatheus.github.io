@@ -1,0 +1,226 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2A4760;
+    
+}
+
+.profi{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "h .";
+    background-color: #ddd;
+    color: #2a4760;
+}
+.profi>div{
+    width: 100%;
+}
+
+.port{
+    background-color: #ddd;
+    grid-area: h;
+    display: grid;
+    justify-items: center;    
+    align-items: center;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    color:#2a4760;
+    background-color:#2a4760;
+    
+}
+
+.imaa{
+    text-align: center;
+    padding-right: 14%;
+
+}
+
+.imagem{
+    width: 75%;
+    border-radius: 50%;
+    padding-left: 14%;
+}
+
+/*img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}*/
+
+h3{
+    text-decoration: underline;
+    /*width: 8vw; height: 6vh;*/
+}
+
+h3>a{
+    text-decoration:none;
+    color: inherit;
+}
+
+button{
+    width: 90%; 
+    background: none;
+    cursor: pointer;
+    color: #2a4760;
+    margin: 1%;
+    padding: 5%;
+    border: 1px solid #2a4760;
+    border-radius: 5px;
+    transition: 1;
+}
+
+button:hover{
+    background: #2a4760;
+    color: #ddd;
+}
+
+.ctt{
+    color : #ddd;
+    background-color: #2a4760;
+    width: 90%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.cttimg{
+    width: 32%;
+    border-radius: 50%;
+
+    /*style="width: 6vw; height: 11vh; border-radius:50%;*/
+}
+
+.coisas{
+    color: #ddd;
+    display: grid;
+    text-align: center;
+    border: 5px solid #2a4760;
+    
+}
+
+.textoInImagem {
+    position: relative;
+}
+  
+  /*#Imagem {
+    position: absolute;
+  }*/
+
+  .label{
+    position: absolute;
+    font-size: 24px;
+    left: 1%;
+    top: 19%;
+    text-shadow: 0px 10px 5px rgb(0, 0, 0);
+  }
+
+
+
+.gruu{
+    border-bottom: 5px solid #2a4760;
+}
+
+.coisaimg{
+    margin: 1%;
+    width: 97%;
+    border: 1px solid #000
+    /*style="padding:5px; width: 77vw; height: 55vh;"*/
+}
+
+.coisasimg{
+    margin: 2%;
+    width: 23%;
+    border: 2px solid #000
+    /*style="margin:5px; width: 19vw; height: 24vh; border: 2px solid #000000;"*/
+}
+
+
+/*img.imaa{
+    text-align: center;
+    width: 20%; 
+    border-radius:50%;
+}*/
+
+#traa{
+    color:#2a4760;
+    padding: 0;
+}
+@media(max-width:411px){
+    .imagem{
+        width: 100%;
+        padding: 1%;
+    }
+    .cttimg{
+        width: 50%;
+        margin: 5%;
+
+    }
+    .coisasimg{
+        margin: 3%;
+        width: 70%;
+    }
+    .coisaimg{
+        width: 100%;
+    }
+    .profi{
+        display: grid;
+        grid-template-areas: "g .";
+        justify-content: center;
+
+    }
+    .port{
+        grid-area: g;
+        padding: 5%;
+        justify-content:  center;
+    }
+
+    p{
+        font-size: 55%;
+        padding:10%;
+    }
+
+    h3{
+        font-size:12px
+    }
+
+    .imaa{
+        text-align: auto;
+        padding:14%;
+        font-size: 1.5em;
+    }
+
+    button{
+        width: 90%;
+        margin-right: 8%;
+    }
+
+    .ctt{
+        width:88%;
+        margin-bottom: -33%;
+        margin-right:7%;
+    }
+
+    .label{
+        position:fixed;
+        font-size: 24px;
+        left: 21%;
+        top: 0px;
+        bottom: 5%;
+        text-shadow: 0px 10px 5px rgb(0, 0, 0);
+      }
+}

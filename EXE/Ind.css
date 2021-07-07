@@ -1,0 +1,16 @@
+html, body{
+    margin:0px;
+    padding: 10px;
+}
+
+h4{
+    text-align:right; 
+}
+
+div>ul>li{
+    list-style: armenian;
+}
+
+nav>ul>li{
+    display: inline;
+}
