@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding: 0;
+}
+div{
+    margin-left: 45vw;
+    margin-top: 1vw;
+    display:flex;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgba(26, 91, 134, 0.4)
+}
+#add{
+    margin-left: 42vw;
+    margin-top: 30vw;
+    padding: 10px;
+    border-radius: 4px;
+}
+#bot{
+    margin-left: 30px;
+    border-radius: 10vw;
+    padding: 10px;
+
+}
+#bot:hover{
+    background-color: rgb(63, 190, 84)
+}
